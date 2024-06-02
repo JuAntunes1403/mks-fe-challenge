@@ -1,0 +1,9 @@
+.header {
+    @apply bg-[#0F52BA] flex justify-between px-8 py-4;
+    &__company-name {
+        @apply text-[2.5rem] font-semibold text-white;
+        small {
+            @apply text-xl ml-4 font-light;
+        }
+    }
+}

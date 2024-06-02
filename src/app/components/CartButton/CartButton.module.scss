@@ -1,0 +1,67 @@
+.cart {
+    @apply bg-white text-black rounded-lg flex items-center px-4;
+    &__icon {
+        @apply mr-4;
+    }
+    &__quantity {}
+}
+
+.nav {
+    @apply absolute right-0 top-0 w-[486px];
+}
+
+.sidebar-container {
+    @apply h-screen fixed top-0 right-0 bg-[#0F52BA] w-[486px] overflow-hidden pt-6 flex flex-col transition-all box-border;
+
+    &__header {
+        @apply flex justify-between p-4;
+    }
+    &__title {
+        @apply text-[1.75rem] text-white font-bold;
+    }
+
+    &__close {
+        @apply bg-black text-white h-8 w-8 block rounded-[50%];
+    }
+
+    &__products {
+        @apply list-none flex flex-col gap-4 flex-1 px-4;
+
+        &__item {
+            @apply bg-white flex rounded-lg justify-between items-center py-4 px-4 relative;
+
+            &__close {
+                @apply bg-black text-white absolute -top-2 -right-2 py-1 px-2 text-xs rounded-[50%];
+            }
+        }
+    }
+
+    &__quantity {
+        &__label {
+            @apply text-xs;
+        }
+        &__wrapper {
+            @apply rounded-lg border border-[##BFBFBF] py-2;
+            button {
+                @apply px-2;
+    
+                &:first-of-type {
+                    @apply border-r mr-2;
+                }
+                &:last-of-type {
+                    @apply border-l ml-2;
+                }
+            }
+        }
+    }
+
+    &__footer {
+        @apply float-end;
+        &__price-container {
+            @apply flex justify-between px-4 text-[1.75rem] text-white font-bold;
+        }
+        &__finish-btn {
+            @apply bg-black w-full text-white py-4 text-[1.75rem] font-bold;
+        }
+    }
+}

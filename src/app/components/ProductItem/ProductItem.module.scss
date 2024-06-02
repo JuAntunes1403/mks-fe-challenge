@@ -1,0 +1,32 @@
+.product-container {
+    @apply flex flex-col rounded-lg bg-white;
+    box-shadow: 0px 2px 8px 0px #00000022;
+
+    &__wrapper {
+        @apply px-4 flex-1;
+    }
+    &__image {
+        @apply rounded-t-lg mx-auto flex-1 h-[13rem];
+    }
+    &__price {
+        @apply bg-[#373737] rounded-md px-2 py-1 text-white;
+    }
+    &__title {
+        @apply font-normal;
+    }
+    &__description {
+        @apply flex-1 font-thin;
+    }
+
+    &__footer {
+        &-btn {
+            @apply bg-[#0F52BA] hover:bg-[#0a3c87] flex items-center h-10 justify-center rounded-b-lg transition-colors;
+        }
+        &__icon {
+            @apply mr-4;
+        }
+        &__text {
+            @apply text-white;
+        }
+    }
+}
