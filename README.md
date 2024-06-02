@@ -21,4 +21,4 @@ Abra [http://localhost:3000](http://localhost:3000) no browser de preferência p
 
 ## Deploy no Vercel
 
-Este site foi deployado no Vercel (Empresa fundadora do NextJS) e está disponível na URL: **COMING SOON**
+Este site foi deployado no Vercel (Empresa fundadora do NextJS) e está disponível na URL: [https://mks-fe-challenge.vercel.app/](https://mks-fe-challenge.vercel.app/)
